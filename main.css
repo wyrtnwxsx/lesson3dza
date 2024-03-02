@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 56px;
+    padding-bottom: 86px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.header_link{
+    color: #1f1534;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.header_link:hover{
+    color: #1f1534;
+    font-weight: 700;
+    opacity: 1;
+}
+.header_link:active{
+    color: red;
+}
+.hero{
+    padding-bottom: 96px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_textbox{
+    width: 440px;
+}
+.hero_title{
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hero_text{
+    color: rgb(125, 121, 135);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hero_btn{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 17px 0;
+    width: 197px;
+    border: none;
+    border-radius: 55px;
+    background-color: #458ff6;
+}
+.hero_btn:hover{
+   background-color: #000000;
+   transition: 0.4s ease-in-out;
+}
+.hero_btn:active{
+    background-color: red;
+}
+.services{
+    padding-bottom: 106px;
+}
+.services_textbox{
+    width: 952px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services_title{
+    color: #000000;
+    font-family: "Mulish";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+.services_text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.services__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.services__item{
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgb(229, 233, 246,0.4);
+    background-color: #ffffff;
+    padding: 68px 58px 47px 41px;
+    margin-bottom: 40px;
+}
+.services__heading{
+   color: rgb(0, 0, 0);
+   font-family: "Mulish";
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 56px;
+}
+.services__desc{
+   color: #7d7987;
+   font-family: "Mulish";
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 28px;
+}
+.services__btn{
+    display: block;
+    border-radius: 50px;
+   width: 200px;
+   padding: 17px 0;
+   border: 1 px solid #458ff6;
+   color: #458ff6;
+   background-color: transparent;
+   margin: 0 auto;
+   font-family: "Mulish";
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 23px;
+}
+.services__btn:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.services__btn:active{
+    background-color: rgb(209,15, 15);
+    transition: 0.4s ease-in-out;
+}
